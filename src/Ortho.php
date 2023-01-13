@@ -27,7 +27,7 @@ class Ortho
         return "https://widget.tryortho.co?".http_build_query([
             'slug'=>config('ortho.slug'),
             'platform'=>'php',
-            'props'=> $data,
+            'config'=> json_encode(['provider_values'=>$data]),
         ],
             null,
                 null,
