@@ -2,7 +2,6 @@
 
 namespace Ortho\Laravel\Models;
 
-// {"options" : [{"provider" : "mono-connect", "settings" : {"key" : "your_custom_key"}}, {"provider" : "remita-pay", "settings" : {"amount" : 10000}}]}
 use Illuminate\Support\Arr;
 
 class OrthoTransactionBuilder
